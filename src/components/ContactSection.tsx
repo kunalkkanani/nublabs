@@ -5,8 +5,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { 
-  Mail, 
-  Phone, 
   MapPin, 
   Clock,
   Send,
@@ -54,27 +52,15 @@ const ContactSection = () => {
 
   const contactInfo = [
     {
-      icon: Mail,
-      title: "Email",
-      value: "hello@techflowsolutions.com",
-      link: "mailto:hello@techflowsolutions.com"
-    },
-    {
-      icon: Phone,
-      title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
-    },
-    {
       icon: MapPin,
       title: "Location",
-      value: "New York, NY, USA",
+      value: "Rajkot, Gujarat, India",
       link: null
     },
     {
       icon: Clock,
       title: "Business Hours",
-      value: "Mon-Fri: 9AM-6PM EST",
+      value: "Mon-Fri: 9AM-6PM IST",
       link: null
     }
   ];

@@ -17,16 +17,11 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="md:col-span-2">
-              <h3 className="text-2xl font-bold mb-4">TechFlow Solutions</h3>
+              <h3 className="text-2xl font-bold mb-4">Nub Labs</h3>
               <p className="text-primary-foreground/80 mb-6 leading-relaxed max-w-md">
                 Empowering businesses through innovative technology solutions, 
                 custom software development, and AI integration services.
               </p>
-              <div className="space-y-2 text-sm text-primary-foreground/80">
-                <p>📧 hello@techflowsolutions.com</p>
-                <p>📞 +1 (555) 123-4567</p>
-                <p>📍 New York, NY, USA</p>
-              </div>
             </div>
 
             {/* Quick Links */}
@@ -82,16 +77,8 @@ const Footer = () => {
 
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-primary-foreground/80">
-              © {currentYear} TechFlow Solutions. All rights reserved.
+              © {currentYear} Nub Labs. All rights reserved.
             </p>
-            <div className="flex gap-6 text-sm text-primary-foreground/80">
-              <button className="hover:text-primary-foreground transition-colors">
-                Privacy Policy
-              </button>
-              <button className="hover:text-primary-foreground transition-colors">
-                Terms of Service
-              </button>
-            </div>
           </div>
         </div>
       </div>

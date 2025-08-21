@@ -24,7 +24,7 @@ const AboutSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6">
-              About TechFlow Solutions
+              About Nub Labs
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               We are a forward-thinking technology consultancy committed to helping businesses 
@@ -39,7 +39,7 @@ const AboutSection = () => {
                 Empowering Businesses Through Technology
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                At TechFlow Solutions, we believe that technology should be an enabler, not a barrier. 
+                At Nub Labs, we believe that technology should be an enabler, not a barrier. 
                 Our team of expert developers and consultants work closely with you to understand your 
                 unique challenges and deliver solutions that drive real business value.
               </p>
