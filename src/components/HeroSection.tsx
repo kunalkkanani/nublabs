@@ -46,10 +46,9 @@ const HeroSection = () => {
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
             </Button>
             <Button 
-              variant="outline" 
               size="lg"
               onClick={scrollToServices}
-              className="border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-lg"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4 rounded-lg shadow-elegant group"
               aria-label="View our services"
             >
               View Services

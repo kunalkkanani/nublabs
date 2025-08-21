@@ -4,7 +4,7 @@ import { CheckCircle, Users, Award, TrendingUp } from "lucide-react";
 const AboutSection = () => {
   const stats = [
     { icon: Users, value: "50+", label: "Projects Delivered" },
-    { icon: Award, value: "5+", label: "Years Experience" },
+    { icon: Award, value: "7+", label: "Years Experience" },
     { icon: TrendingUp, value: "100%", label: "Client Satisfaction" },
   ];
 
